@@ -33,6 +33,8 @@ int randomNum() {
   return a;
 }
 void do3x3Scramble() {
+    totalNum = 0;
+    i = 0;
     randomSeed(millis());
     while(i++ < inputLength) {
     bool doTwo = false;
